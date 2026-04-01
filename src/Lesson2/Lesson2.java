@@ -9,5 +9,11 @@ public class Lesson2 {
      */
     static void main() {
         System.out.println("Hello world");
+
+        /*
+        first string
+        second string
+        other string
+         */
     }
 }
