@@ -1,6 +1,6 @@
 package Lesson8;
 
-public class Operators {
+public class Operations {
     static void main() {
         int a = 16, b = 8;
 
