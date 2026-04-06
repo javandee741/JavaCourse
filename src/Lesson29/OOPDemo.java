@@ -8,5 +8,7 @@ public class OOPDemo {
         Person john=Person.getInstance("Ivan");
         john.setAge(33);
         john.sayHello();
+    
+
     }
 }
