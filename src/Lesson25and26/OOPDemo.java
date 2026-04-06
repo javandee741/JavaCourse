@@ -1,4 +1,4 @@
-package Lesson25;
+package Lesson25and26;
 
 public class OOPDemo {
     static void main() {
@@ -8,6 +8,9 @@ public class OOPDemo {
         myName.age = 48;
 
         myName.sayHello();
+
+        Person constructorName = new Person();
+        constructorName.sayHello();
 
         PersonKotlin personKotlin = new PersonKotlin();
         personKotlin.setName("Evgeny Markin");
