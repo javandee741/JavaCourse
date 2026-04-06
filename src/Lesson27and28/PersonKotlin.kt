@@ -1,4 +1,4 @@
-package Lesson27
+package Lesson27and28
 
 import java.text.SimpleDateFormat
 import java.util.Date

@@ -1,7 +1,6 @@
-package Lesson27;
+package Lesson27and28;
 
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 
 public class OOPDemo {
     static void main() throws ParseException {
@@ -9,6 +8,8 @@ public class OOPDemo {
 
         person.setName("Evgeny");
         person.setAge(48);
+
+        System.out.println(Person.KIND);
 
         person.sayHello();
 

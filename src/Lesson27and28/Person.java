@@ -1,8 +1,10 @@
-package Lesson27;
+package Lesson27and28;
 
 public class Person {
     private String name;
     private int age;
+
+    public static String KIND = "Human";
 
     public String getName() {
         return name;
