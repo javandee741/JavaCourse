@@ -1,7 +1,6 @@
 package Lesson52;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class ListDemo {
     static void main() {
@@ -32,5 +31,20 @@ public class ListDemo {
 
         System.out.println("--------------------------------");
 
+        Set<String> stringSet = new HashSet<>();
+        stringSet.add("Ivan");
+        stringSet.add("Ivan");
+        stringSet.add("John");
+        System.out.println(stringSet);
+
+        System.out.println("--------------------------------");
+
+        Map<String, Integer> map = new HashMap<>();
+        map.put("John", 24);
+        map.put("Ivan",33);
+        map.put("Evgeny",48);
+
+        System.out.println(map.get("John"));
+        System.out.println(map);
     }
 }
