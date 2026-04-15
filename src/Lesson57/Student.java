@@ -1,7 +1,7 @@
 package Lesson57;
 
 public class Student {
-    int age;
+    Integer age;
     String name;
     int course;
 
@@ -22,7 +22,7 @@ public class Student {
         this.course = course;
     }
 
-    public int getAge() {
+    public Integer getAge() {
         return age;
     }
 
