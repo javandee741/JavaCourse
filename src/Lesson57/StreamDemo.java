@@ -64,6 +64,12 @@ public class StreamDemo {
                 .toList();
 
         System.out.println(sortedByName.getFirst().name);
+
+        List<Student> studentAfterSkip = students.stream()
+                .skip(15)
+                .toList();
+
+        System.out.println(studentAfterSkip.getFirst().name);
     }
 }
 
