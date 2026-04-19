@@ -1,6 +1,6 @@
-package Lesson70;
+package Lesson70.JAVA;
 
-import Lesson70.controller.GameController;
+import Lesson70.JAVA.controller.GameController;
 
 public class Main {
     static void main(String[] args) {

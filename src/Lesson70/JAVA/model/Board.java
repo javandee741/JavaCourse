@@ -1,4 +1,4 @@
-package Lesson70.model;
+package Lesson70.JAVA.model;
 
 public class Board {
 

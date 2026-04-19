@@ -1,10 +1,9 @@
-package Lesson70.controller;
+package Lesson70.JAVA.controller;
 
-import Lesson70.model.Board;
-import Lesson70.model.Player;
-import Lesson70.model.Symbol;
+import Lesson70.JAVA.model.Board;
+import Lesson70.JAVA.model.Player;
+import Lesson70.JAVA.model.Symbol;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class GameController {
